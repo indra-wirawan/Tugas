@@ -3,47 +3,51 @@
 <head>
 	<title></title>
 	<link rel="stylesheet" type="text/css" href="style.css">
-	<script language='JavaScript'>
-	 var txt="===== Selamat Datang di Website Kelompok H36 =====";
-	 var speed=300;
-	 var refresh=null;
-	 function action() { document.title=txt;
-	 txt=txt.substring(1,txt.length)+ txt.charAt(0);
-	 refresh=setTimeout("action()",speed);}action();
-	</script>
+  <script language='JavaScript'>
+    var txt="===== Selamat Datang di Website Kelompok H36 =====";
+    var speed=300;
+    var refresh=null;
+    function action() { document.title=txt;
+      txt=txt.substring(1,txt.length)+ txt.charAt(0);
+      refresh=setTimeout("action()",speed);}action();
+  </script>
 </head>
 <body>
+	<div class="nav">
+		<a href="#">Home</a>
+		<a href="#">Paket Wisata</a>
+		<a href="#">Paket Suka-Suka</a>
+		<a href="#">Hubungi Kami</a>
+	</div>
 <div class="header">
-  <h2>header</h2>
+  <h2>PT First Travel</h2>
+	<h3>Biro Wisata Murah & Terpercaya</h3>
 </div>
 
-<div class="nav">
-  <a href="#">menu 1</a>
-  <a href="#">menu 2</a>
-  <a href="#">menu 3</a>
-</div>
 
 <div class="row">
   <div class="content">
     <div class="card">
-      <h2>Judul artikel</h2>
-      <h5>Tanggal</h5>
-      <div class="img" style="height:200px;">Image</div>
-      <p>Deskripsi deskripsi</p>
+      <h2>Bali</h2>
+      <h5></h5>
+      <div class="img" style="height:200px;">
+				<img class="img-card" src="https://assets.puzzlefactory.pl/puzzle/174/823/thumb.jpg">
+			</div>
+      <p>Surga tropis bagi pencinta pantai, penggemar aktivitas kebugaran, dan penjelajah budaya</p>
     </div>
   </div>
   <div class="sidebar">
     <div class="widget">
-      <h2>Widget 1</h2>
+      <h2>Asia</h2>
     </div>
     <div class="widget">
-      <h2>Widget 2</h2>
+      <h2>Eropa</h2>
     </div>
     <div class="widget">
-      <h2>Widget 3</h2>
+      <h2>Domestik</h2>
     </div>
     <div class="widget">
-      <h2>Widget 4</h2>
+      <h2>Rohani</h2>
     </div>
   </div>
 </div>
